@@ -1,4 +1,4 @@
-/* Simply the beautified version of the code at https://cdnjs.cloudflare.com/ajax/libs/zxcvbn/4.2.0/zxcvbn.js. This is mainly to avoid cloudflare telemetry, but if cloudflare isn't ok with this, i will take it down */
+/* Simply the beautified version of the code at https://github.com/dropbox/zxcvbn */
 
 (function(f) {
     if (typeof exports === "object" && typeof module !== "undefined") {
