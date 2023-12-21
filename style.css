@@ -4,6 +4,7 @@ body {
   font-family: Roboto Mono;
   background-color: lightblue;
   text-align: center;
+  font-weight: bold;
 }
 #password {
   margin: auto;
