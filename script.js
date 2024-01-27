@@ -8,5 +8,5 @@ pwd.addEventListener("input", function () {
   let result = zxcvbn(pwdVal);  
   pwdStrength.className = "strength-" + result.score;  
   pwdTime.textContent = "It would take " + result.crack_times_display.online_no_throttling_10_per_second + " to crack this password"
-  pwdTimeSecs.textContent = "That's exactly " + result.crack_times_seconds.online_no_throttling_10_per_second + " seconds"
+  pwdTimeSecs.textContent = "That's " + result.crack_times_seconds.online_no_throttling_10_per_second + " seconds"
 });
